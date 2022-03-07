@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3DB3A56627D6BB9E0028E246 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3A56527D6BB9E0028E246 /* AppDelegate.swift */; };
+		3DB3A56827D6BB9E0028E246 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3A56727D6BB9E0028E246 /* ViewController.swift */; };
+		3DB3A56B27D6BB9F0028E246 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3A56927D6BB9F0028E246 /* Main.storyboard */; };
+		3DB3A56D27D6BBA30028E246 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3A56C27D6BBA30028E246 /* Assets.xcassets */; };
+		3DB3A57027D6BBA30028E246 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DB3A56E27D6BBA30028E246 /* LaunchScreen.storyboard */; };
+		3DB3A57B27D6BBA30028E246 /* EncuestaCovidTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3A57A27D6BBA30028E246 /* EncuestaCovidTests.swift */; };
+		3DB3A58627D6BBA30028E246 /* EncuestaCovidUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB3A58527D6BBA30028E246 /* EncuestaCovidUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DB3A57727D6BBA30028E246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB3A55A27D6BB9E0028E246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB3A56127D6BB9E0028E246;
+			remoteInfo = EncuestaCovid;
+		};
+		3DB3A58227D6BBA30028E246 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DB3A55A27D6BB9E0028E246 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DB3A56127D6BB9E0028E246;
+			remoteInfo = EncuestaCovid;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3DB3A56227D6BB9E0028E246 /* EncuestaCovid.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EncuestaCovid.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB3A56527D6BB9E0028E246 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DB3A56727D6BB9E0028E246 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DB3A56A27D6BB9F0028E246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DB3A56C27D6BBA30028E246 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3DB3A56F27D6BBA30028E246 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3DB3A57127D6BBA30028E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB3A57627D6BBA30028E246 /* EncuestaCovidTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncuestaCovidTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB3A57A27D6BBA30028E246 /* EncuestaCovidTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaCovidTests.swift; sourceTree = "<group>"; };
+		3DB3A57C27D6BBA30028E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DB3A58127D6BBA30028E246 /* EncuestaCovidUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EncuestaCovidUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DB3A58527D6BBA30028E246 /* EncuestaCovidUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EncuestaCovidUITests.swift; sourceTree = "<group>"; };
+		3DB3A58727D6BBA30028E246 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DB3A55F27D6BB9E0028E246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57327D6BBA30028E246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57E27D6BBA30028E246 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3DB3A55927D6BB9E0028E246 = {
+			isa = PBXGroup;
+			children = (
+				3DB3A56427D6BB9E0028E246 /* EncuestaCovid */,
+				3DB3A57927D6BBA30028E246 /* EncuestaCovidTests */,
+				3DB3A58427D6BBA30028E246 /* EncuestaCovidUITests */,
+				3DB3A56327D6BB9E0028E246 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DB3A56327D6BB9E0028E246 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DB3A56227D6BB9E0028E246 /* EncuestaCovid.app */,
+				3DB3A57627D6BBA30028E246 /* EncuestaCovidTests.xctest */,
+				3DB3A58127D6BBA30028E246 /* EncuestaCovidUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DB3A56427D6BB9E0028E246 /* EncuestaCovid */ = {
+			isa = PBXGroup;
+			children = (
+				3DB3A56527D6BB9E0028E246 /* AppDelegate.swift */,
+				3DB3A56727D6BB9E0028E246 /* ViewController.swift */,
+				3DB3A56927D6BB9F0028E246 /* Main.storyboard */,
+				3DB3A56C27D6BBA30028E246 /* Assets.xcassets */,
+				3DB3A56E27D6BBA30028E246 /* LaunchScreen.storyboard */,
+				3DB3A57127D6BBA30028E246 /* Info.plist */,
+			);
+			path = EncuestaCovid;
+			sourceTree = "<group>";
+		};
+		3DB3A57927D6BBA30028E246 /* EncuestaCovidTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB3A57A27D6BBA30028E246 /* EncuestaCovidTests.swift */,
+				3DB3A57C27D6BBA30028E246 /* Info.plist */,
+			);
+			path = EncuestaCovidTests;
+			sourceTree = "<group>";
+		};
+		3DB3A58427D6BBA30028E246 /* EncuestaCovidUITests */ = {
+			isa = PBXGroup;
+			children = (
+				3DB3A58527D6BBA30028E246 /* EncuestaCovidUITests.swift */,
+				3DB3A58727D6BBA30028E246 /* Info.plist */,
+			);
+			path = EncuestaCovidUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DB3A56127D6BB9E0028E246 /* EncuestaCovid */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB3A58A27D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovid" */;
+			buildPhases = (
+				3DB3A55E27D6BB9E0028E246 /* Sources */,
+				3DB3A55F27D6BB9E0028E246 /* Frameworks */,
+				3DB3A56027D6BB9E0028E246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EncuestaCovid;
+			productName = EncuestaCovid;
+			productReference = 3DB3A56227D6BB9E0028E246 /* EncuestaCovid.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DB3A57527D6BBA30028E246 /* EncuestaCovidTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB3A58D27D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovidTests" */;
+			buildPhases = (
+				3DB3A57227D6BBA30028E246 /* Sources */,
+				3DB3A57327D6BBA30028E246 /* Frameworks */,
+				3DB3A57427D6BBA30028E246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB3A57827D6BBA30028E246 /* PBXTargetDependency */,
+			);
+			name = EncuestaCovidTests;
+			productName = EncuestaCovidTests;
+			productReference = 3DB3A57627D6BBA30028E246 /* EncuestaCovidTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		3DB3A58027D6BBA30028E246 /* EncuestaCovidUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DB3A59027D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovidUITests" */;
+			buildPhases = (
+				3DB3A57D27D6BBA30028E246 /* Sources */,
+				3DB3A57E27D6BBA30028E246 /* Frameworks */,
+				3DB3A57F27D6BBA30028E246 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DB3A58327D6BBA30028E246 /* PBXTargetDependency */,
+			);
+			name = EncuestaCovidUITests;
+			productName = EncuestaCovidUITests;
+			productReference = 3DB3A58127D6BBA30028E246 /* EncuestaCovidUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DB3A55A27D6BB9E0028E246 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Alumno;
+				TargetAttributes = {
+					3DB3A56127D6BB9E0028E246 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					3DB3A57527D6BBA30028E246 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DB3A56127D6BB9E0028E246;
+					};
+					3DB3A58027D6BBA30028E246 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 3DB3A56127D6BB9E0028E246;
+					};
+				};
+			};
+			buildConfigurationList = 3DB3A55D27D6BB9E0028E246 /* Build configuration list for PBXProject "EncuestaCovid" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DB3A55927D6BB9E0028E246;
+			productRefGroup = 3DB3A56327D6BB9E0028E246 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DB3A56127D6BB9E0028E246 /* EncuestaCovid */,
+				3DB3A57527D6BBA30028E246 /* EncuestaCovidTests */,
+				3DB3A58027D6BBA30028E246 /* EncuestaCovidUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DB3A56027D6BB9E0028E246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB3A57027D6BBA30028E246 /* LaunchScreen.storyboard in Resources */,
+				3DB3A56D27D6BBA30028E246 /* Assets.xcassets in Resources */,
+				3DB3A56B27D6BB9F0028E246 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57427D6BBA30028E246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57F27D6BBA30028E246 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DB3A55E27D6BB9E0028E246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB3A56827D6BB9E0028E246 /* ViewController.swift in Sources */,
+				3DB3A56627D6BB9E0028E246 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57227D6BBA30028E246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB3A57B27D6BBA30028E246 /* EncuestaCovidTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DB3A57D27D6BBA30028E246 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DB3A58627D6BBA30028E246 /* EncuestaCovidUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DB3A57827D6BBA30028E246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB3A56127D6BB9E0028E246 /* EncuestaCovid */;
+			targetProxy = 3DB3A57727D6BBA30028E246 /* PBXContainerItemProxy */;
+		};
+		3DB3A58327D6BBA30028E246 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DB3A56127D6BB9E0028E246 /* EncuestaCovid */;
+			targetProxy = 3DB3A58227D6BBA30028E246 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DB3A56927D6BB9F0028E246 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB3A56A27D6BB9F0028E246 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DB3A56E27D6BBA30028E246 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DB3A56F27D6BBA30028E246 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DB3A58827D6BBA30028E246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DB3A58927D6BBA30028E246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DB3A58B27D6BBA30028E246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3DB3A58C27D6BBA30028E246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovid/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovid;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3DB3A58E27D6BBA30028E246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncuestaCovid.app/EncuestaCovid";
+			};
+			name = Debug;
+		};
+		3DB3A58F27D6BBA30028E246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovidTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovidTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EncuestaCovid.app/EncuestaCovid";
+			};
+			name = Release;
+		};
+		3DB3A59127D6BBA30028E246 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncuestaCovid;
+			};
+			name = Debug;
+		};
+		3DB3A59227D6BBA30028E246 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = EncuestaCovidUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = edu.ulsa.EncuestaCovidUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EncuestaCovid;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DB3A55D27D6BB9E0028E246 /* Build configuration list for PBXProject "EncuestaCovid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB3A58827D6BBA30028E246 /* Debug */,
+				3DB3A58927D6BBA30028E246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB3A58A27D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovid" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB3A58B27D6BBA30028E246 /* Debug */,
+				3DB3A58C27D6BBA30028E246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB3A58D27D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovidTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB3A58E27D6BBA30028E246 /* Debug */,
+				3DB3A58F27D6BBA30028E246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DB3A59027D6BBA30028E246 /* Build configuration list for PBXNativeTarget "EncuestaCovidUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DB3A59127D6BBA30028E246 /* Debug */,
+				3DB3A59227D6BBA30028E246 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DB3A55A27D6BB9E0028E246 /* Project object */;
+}
